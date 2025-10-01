@@ -17,4 +17,5 @@ const calculate = () => {
     }
     return results;
 }
-console.log(calculate())
+
+console.log(calculate());

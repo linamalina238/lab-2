@@ -16,4 +16,5 @@ const rangeOdd = (start,end) =>{
     }
     return result;
 }
-console.log(rangeOdd(15,30))
+
+console.log(rangeOdd(15,30));

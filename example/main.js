@@ -1,10 +1,10 @@
- const { cyclicDayGenerator, sleep, timeoutIteratorAsync } = require("..");
+const { cyclicDayGenerator, sleep, timeoutIteratorAsync } = require("day-iterator-lib");
 
 async function main() {
     console.log("=== Тест 1: перші 10 днів ===");
     const gen = cyclicDayGenerator();
     for (let i = 0; i < 10; i++) {
-        console.log((i + 1) + ": " + gen.next().value);5
+        console.log((i + 1) + ": " + gen.next().value);
     }
 
     console.log("\n=== Тест 2: запуск на 3 секунди з датою ===");

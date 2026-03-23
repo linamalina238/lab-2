@@ -1,11 +1,1 @@
- {
-  "name": "day-iterator-lib",
-  "version": "1.0.0",
-  "description": "Бібліотека з генератором днів тижня",
-  "main": "index.js",
-  "author": "Alina",
-  "license": "MIT",
-  "scripts": {
-    "example": "node example/main.js"
-  }
-}
+{"name":"day-iterator-example","version":"1.0.0","main":"main.js","author":"Alina","license":"MIT","scripts":{"start":"node main.js"},"dependencies":{"day-iterator-lib":"file:../library"}}
